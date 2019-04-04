@@ -5,4 +5,4 @@ For everyone who're reading Pro JSF and HMTL 5 book, sometimes we want to create
 ### First of all, if you don't know how to create JSF project with IntelliJ Idea, watch it first.
 
 
-[![How to create JSF project with InteliiJ Idea](https://img.youtube.com/vi/dk8s7-stZdo/0.jpg)](https://www.youtube.com/watch?v=dk8s7-stZdo)
+[![How to create JSF project with InteliiJ Idea](https://s2.gifyu.com/images/yy-1.gif)](https://www.youtube.com/watch?v=dk8s7-stZdo)
