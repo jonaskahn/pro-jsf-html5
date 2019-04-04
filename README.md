@@ -6,3 +6,7 @@ For everyone who're reading Pro JSF and HMTL 5 book, sometimes we want to create
 
 [JSF Project](http://www.javaserverfaces.org/get-started#TOC-Creating-a-web-project-and-adding-J)
 
+Import project
+[![Import Maven JSF project to IntelliJ](http://img.youtube.com/vi/VlRjP6YWSfQ/0.jpg)](http://www.youtube.com/watch?v=VlRjP6YWSfQ "")
+
+
