@@ -4,5 +4,5 @@ For everyone who're reading Pro JSF and HMTL 5 book, sometimes we want to create
 
 ### First of all, if you don't know how to create JSF project with Maven, see link below:
 
-[![JSF Project ](https://img.youtube.com/vi/dk8s7-stZdo/0.jpg)](http://www.javaserverfaces.org/get-started#TOC-Creating-a-web-project-and-adding-J)
+[![JSF Project ]](http://www.javaserverfaces.org/get-started#TOC-Creating-a-web-project-and-adding-J)
 
