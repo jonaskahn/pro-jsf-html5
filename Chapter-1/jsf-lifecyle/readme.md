@@ -17,10 +17,12 @@
 ### Fun things
 
 ***JSF in MVC?***
+
 - All we know that JSF was based on MVC technology, but I almost get wrong with JSF MVC until I read this book. Before that, I thought:
 -- Model *is Java Po-jo class*
 -- View *is Facelets Xhtml page*
 -- Controller *is ManagedBean*
+
 
 - But **I was wrong**. 
 -- Controller , which is represented by the JSF Faces Servlet. The Faces Servlet is responsible for handling the request dispatching and the pages is responsible for handling the JSF request processing life cycle.
