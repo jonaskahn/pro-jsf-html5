@@ -5,5 +5,6 @@ For everyone who're reading Pro JSF and HMTL 5 book, sometimes we want to create
 ### First of all, if you don't know how to create JSF project with Maven or you also can import my example project to IntelliJ see link below:
 
 - [Create JSF](http://www.javaserverfaces.org/get-started#TOC-Creating-a-web-project-and-adding-J)
-- Import Project
-- [![Import JSF to IntelliJ](http://img.youtube.com/vi/VlRjP6YWSfQ/0.jpg)](http://www.youtube.com/watch?v=VlRjP6YWSfQ "")
+- [Import Project](http://www.youtube.com/watch?v=VlRjP6YWSfQ)
+
+[![Import JSF to IntelliJ](http://img.youtube.com/vi/VlRjP6YWSfQ/0.jpg)](http://www.youtube.com/watch?v=VlRjP6YWSfQ)
