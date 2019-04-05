@@ -20,9 +20,9 @@
 ***JSF in MVC?***
 
 - All we know that JSF was based on MVC technology, but I almost get wrong with JSF MVC until I read this book. Before that, I thought:
-  - Model *is java class (pojo class)*
-  - View *is Facelets Xhtml page*
-  - Controller *is ManagedBean*
+  - Model ~~is java class (pojo class)~~
+  - View ~~is Facelets Xhtml page~~
+  - Controller ~~is ManagedBean~~
 
 
 - But **I was wrong**. 
