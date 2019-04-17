@@ -36,8 +36,8 @@
 
 
 **What is the difference between Tomcat and Glassfish?**
-- GlassFish GlassfishGlassfish is a complete Java EE application server, including an EJB container and all the other features of this stack. It comes from Oracle and, therefore, each new specification will be tested and implemented with Glassfish first.
-- TomcatTomcat is simply an HTTP server and a Java servlet container. It is run by the Apache community. Tomcat is open source and free. Supports all Java EE technologies. It is not compatible with any commercial support, but only supported by the community.
+- Glassfish is a complete Java EE application server, including an EJB container and all the other features of this stack. It comes from Oracle and, therefore, each new specification will be tested and implemented with Glassfish first.
+- Tomcat is simply an HTTP server and a Java servlet container. It is run by the Apache community. Tomcat is open source and free. Supports all Java EE technologies. It is not compatible with any commercial support, but only supported by the community.
 
 Read more at: [GlashFish vs Tomcat](https://www.freelancinggig.com/blog/2017/06/05/whats-difference-glassfish-apache-tomcat/)
 
