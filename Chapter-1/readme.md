@@ -15,7 +15,7 @@
 - JSP is a **Java view technology running** on the server machine which allows you to write template text in client side languages (like HTML, CSS, JavaScript, ect.). JSP supports taglibs, which are backed by pieces of Java code that let you control the page flow or output dynamically. A well-known taglib is JSTL. JSP also supports Expression Language. 
 - When a JSP is requested for the first time or when the web app starts up, **the servlet container will compile it into a class extending HttpServlet and use it during the web app's lifetime**. You can find the generated source code in the server's work directory. In for example Tomcat, it's the /work directory. On a JSP request, the servlet container will execute the compiled JSP class and send the generated output (usually just HTML/CSS/JS) through the web server over a network to the client side, which in turn displays it in the web browser.
 - Example:
-![JSP Page example code](https://live.staticflickr.com/65535/33748952928_95cfc4dd6d_o_d.png)
+![JSP Page example code](https://live.staticflickr.com/65535/40660030113_5120ebcc2f_o_d.png = 600x600)
 
 **What is Servlets**
 - Servlet is a **Java application programming interface** (API) running on the server machine, which intercepts requests made by the client and generates/sends a response. A well-known example is the HttpServlet which provides methods to hook on HTTP requests using the popular HTTP methods such as GET and POST. You can configure HttpServlets to listen to a certain HTTP URL pattern, which is configurable in web.xml, or more recently with Java EE 6, with @WebServlet annotation.
@@ -40,4 +40,4 @@
   - Model , which is represented by the JSF managed beans and the back-end code. The JSF managed bean is simply a POJO that conforms to the JavaBeans naming conventions and can be accessed from the JSF application (pages and other managed beans).
   - View , which is the rendering technology of JSF. The rendering technology defines the page layout and content.
   - Let's take a look on the picture below:
-![JSF MVC](https://live.staticflickr.com/7804/40575279223_c7e5c0f743_o_d.jpg)
+![JSF MVC](https://live.staticflickr.com/7804/40575279223_c7e5c0f743_o_d.jpg = 600x600)
