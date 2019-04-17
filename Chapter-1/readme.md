@@ -2,6 +2,7 @@
 ## Notes
 
 - Actually, since JSF 2.0, the faces-config file becomes optional because most of the JSF configuration can be defined using the Java annotations.
+- JSF Converters don't proceed in the second phase - [Apply Request Model except when you set immediate equals true](https://stackoverflow.com/a/12837663/2865414)
 
 ## Question & Answers
 
