@@ -1,59 +1,49 @@
-<?xml version='1.0' encoding='UTF-8' ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:f="http://xmlns.jcp.org/jsf/core"
-      xmlns:rt="http://com.tuyendev/randomtext">
-
-<h:head>
-    <title>RandomText Component Demo</title>
-</h:head>
-
-<h:body>
-    <h1>Example page for the RandomText component</h1>
-    <h:form>
-        <h:panelGrid columns="5">
-            <h:outputText value="Text Type:" />
-            <h:outputText value="Output Tag:" />
-            <h:outputText value="Count:" />
-            <h:outputText value="Min words:" />
-            <h:outputText value="Max words:" />
-
-            <h:selectOneMenu value="#{example.textType}">
-                <f:selectItem itemValue="gibberish" itemLabel="Gibberish" />
-                <f:selectItem itemValue="lorem" itemLabel="Lorem Ipsum" />
-            </h:selectOneMenu>
-
-            <h:selectOneMenu value="#{example.outputTag}">
-                <f:selectItem itemValue="p" itemLabel="Paragraph" />
-                <f:selectItem itemValue="ul" itemLabel="Unordered List" />
-            </h:selectOneMenu>
-
-            <h:inputText value="#{example.count}">
-                <f:convertNumber integerOnly="true" />
-            </h:inputText>
-
-            <h:inputText value="#{example.minWords}">
-                <f:convertNumber integerOnly="true" />
-            </h:inputText>
-
-            <h:inputText value="#{example.maxWords}">
-                <f:convertNumber integerOnly="true" />
-            </h:inputText>
-
-            <h:commandButton value="Generate">
-                <f:ajax render=":rt1" execute="@form" />
-            </h:commandButton>
-        </h:panelGrid>
-
-    </h:form>
-
-<!--    <rt:randomtext id="rt1"-->
-<!--                   textType="#{example.textType}"-->
-<!--                   outputTag="#{example.outputTag}"-->
-<!--                   count="#{example.count}"-->
-<!--                   minWords="#{example.minWords}"-->
-<!--                   maxWords="#{example.maxWords}" />-->
-</h:body>
+<html
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:f="http://xmlns.jcp.org/jsf/core"
+        xmlns:rt="http://com.tuyendev/randomtext"
+        xmlns:h="http://java.sun.com/jsf/html">
+<head>
+    <title>Hello JSF 2!</title>
+</head>
+<body>
+<h:form>
+    <h:panelGrid columns="5">
+        <h:outputText value="Text Type:" />
+        <h:outputText value="Output Tag:" />
+        <h:outputText value="Count:" />
+        <h:outputText value="Min words:" />
+        <h:outputText value="Max words:" />
+        <h:selectOneMenu value="#{example.textType}">
+            <f:selectItem itemValue="gibberish" itemLabel="Gibberish" />
+            <f:selectItem itemValue="lorem" itemLabel="Lorem Ipsum" />
+        </h:selectOneMenu>
+        <h:selectOneMenu value="#{example.outputTag}">
+            <f:selectItem itemValue="p" itemLabel="Paragraph" />
+            <f:selectItem itemValue="ul" itemLabel="Unordered List" />
+        </h:selectOneMenu>
+        <h:inputText value="#{example.count}">
+            <f:convertNumber integerOnly="true" />
+        </h:inputText>
+        <h:inputText value="#{example.minWords}">
+            <f:convertNumber integerOnly="true" />
+        </h:inputText>
+        <h:inputText value="#{example.maxWords}">
+            <f:convertNumber integerOnly="true" />
+        </h:inputText>
+        <h:commandButton value="Generate">
+            <f:ajax render=":rt1" execute="@form" />
+        </h:commandButton>
+    </h:panelGrid>
+</h:form>
+<rt:randomtext id="rt1"
+               textType="#{example.textType}"
+               outputTag="#{example.outputTag}"
+               count="#{example.count}"
+               minWords="#{example.minWords}"
+               maxWords="#{example.maxWords}" />
+</body>
 </html>

@@ -1,5 +1,6 @@
 package com.tuyendev.custom;
 
+import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import java.io.Serializable;
@@ -8,12 +9,20 @@ import java.io.Serializable;
 @ManagedBean(name = "example")
 public class HelloBean implements Serializable {
 
-    private String textType = "gibberish";
-    private String outputTag = "p";
-    private Integer count = 10;
-    private Integer minWords = 5;
-    private Integer maxWords = 10;
+    private String  textType    ;
+    private String  outputTag   ;
+    private Integer count       ;
+    private Integer minWords    ;
+    private Integer maxWords    ;
 
+    @PostConstruct
+    public void init(){
+        textType = "gibberish";
+        outputTag = "p";
+        count = 10;
+        minWords = 5;
+        maxWords = 10;
+    }
 
     public String getTextType() {
         return textType;
